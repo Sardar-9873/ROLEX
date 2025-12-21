@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROLEX</title>
     <link rel="stylesheet" href="Style.CSS">
+    <i class="fa-brands fa-searchengin"></i>
 </head>
 
 <body>
@@ -20,12 +21,23 @@
    <div id="b2">Latest Models</div>
 
    <div id="b3">
-        <marquee  behavior="search for ROLEX Submariner" direction="#"><i class="fa-brands fa-searchengin">Search for ROLEX Submariner</i></marquee>
+        <marquee  behavior="search for ROLEX Submariner" direction="#">Search for ROLEX Submariner</marquee>
    </div>
 
    <a href="#top">⬆</a>
 
-   <a href="2.html" class="right-btn">➡</a>
+   <div class="slider-container">
+  <button onclick="prev()">❮</button>
+
+  <div class="slider">
+    <img src="https://media.rolex.com/image/upload/q_auto:eco/f_auto/t_v7/c_limit,w_1200/v1/catalogue/2025/showcase/m228238-0042 ">
+    <img src="https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1704380521/corners/homepage/corners-homepage-push-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002">
+    <img src="https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1741191111/rolexcom/collection/family-pages/classic-watches/datejust/family-page/2024/classic-watches-datejust-m278288rbr-0041_2501stojan_003_rvb">
+  </div>
+
+  <button onclick="next()">❯</button>
+</div>
+
 
    <div id="b4"></div>
    <section><strong>ROLEX Submariner</strong><br />PKR Rs.4,275,000.00<hr />This Watch is only for sell in Pakistan.</section><hr />
@@ -46,6 +58,8 @@
    <section><strong>ROLEX GMT-Master II</strong><br />PKR Rs.4,878,037.80<hr />This Watch is only for sell in Pakistan.</section><hr />
 
    <section id="s"><p><strong><em>This Website is only for assignment of SMIT Web and App Development Batch-19-weekend-06-09</em></strong></p></section>
+
+   <script src="app.JS"></script>
 </body>
 
 </html>
